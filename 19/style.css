@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 200px;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    text-decoration: underline;
+    line-height: 4;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+    text-indent: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: center;
+}
+
+p{
+    color: blue;
+    color: #0000ff;
+    color: hsl(240, 100%, 50%);
+    color: hwb(240 0% 0%);
+    color: rgb(0, 0, 255);
+}
