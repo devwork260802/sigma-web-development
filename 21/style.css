@@ -1,0 +1,9 @@
+/* Inline > ID > Class > Element/Tag > Universal*/
+
+*{
+    color: aqua;
+}
+
+p{
+    color: brown;
+}
