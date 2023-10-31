@@ -1,0 +1,10 @@
+div {
+    background-color: aqua;
+    border: 5px solid darkblue;
+    display: inline-block;
+    padding: 40px;
+    box-shadow: 30px 30px 20px blue;
+    text-shadow: 10px 5px 4px purple;
+    outline: 15px solid black;
+    outline-offset: 5px;
+}
