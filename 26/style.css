@@ -1,0 +1,9 @@
+div{
+    width: 10vw;
+    height: 40vh;
+    border: 2px solid black;
+    overflow: auto;
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* text-overflow: ellipsis; */
+}
