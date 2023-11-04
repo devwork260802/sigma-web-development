@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    padding: 20px;
+    margin: 40px;
+    border: 5px solid black;
+}
+
+div {
+  padding: 3px;
+  margin: 3px;
+  width: 80vw;
+  height: 40vh;
+  border: 5px solid black;
+}
+
+.box-1 {
+  background-color: yellow;
+  position: sticky;
+  top: 0px;
+  height: 111px;
+}
+
+.box-2 {
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.box-3 {
+  background-color: blue;
+  position: fixed;
+  bottom: 0px;
+}
+
+.box-4 {
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
