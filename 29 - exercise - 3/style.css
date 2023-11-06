@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px auto;
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content-img>img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content-tag{
+    display: flex;
+}
+
+.content-tag>p{
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.content-text > .head > h2{
+    margin: 10px 5px;
+}
+
+.content-text > .para{
+    margin: 10px 5px;
+}
+
+.content-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.content-btn>button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: blue;
+    font-weight: 800;
+    border-style: none;
+}
