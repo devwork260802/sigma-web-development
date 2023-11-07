@@ -1,0 +1,28 @@
+:root{
+    --blue: blue;
+    /* --aqua: aqua; */
+    --greenyellow: greenyellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: var(--aqua,blue);
+}
+
+ul{
+    display: flex;
+}
+
+ul>li{
+    list-style: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+
+.container{
+    background-color: var(--greenyellow);
+}
