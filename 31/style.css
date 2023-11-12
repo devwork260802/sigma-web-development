@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-color: aqua;
+}
+
+@media screen and (orientation: landscape)  {
+    body{
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 455px) and (max-width: 600px){
+    div{
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    div{
+        background-color: blue;
+    }
+}
