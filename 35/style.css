@@ -1,0 +1,51 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+/* Child */
+div > p{
+    color: white;
+}
+
+/* decendent */
+div p{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+
+.blue p:first-child{
+    color: white;
+}
+
+.blue p:nth-child(2){
+    color: white;
+}
+
+[data-color="blue"]{
+    color: red;
+}
+
+.blue p::before{
+    content: "Hi";
+}
+
+.blue p::after{
+    content: "hello";
+}
