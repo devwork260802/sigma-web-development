@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 5px solid purple;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    flex-flow: row wrap-reverse;
+    gap: 30px 50px;
+}
+
+.item{
+    height: 50px; 
+    width: 50px;
+    background-color: red;
+    border: 5px solid black;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 10px;
+    flex-shrink: 2;
+}
+
+.item:nth-child(1){
+    order: 100;
+    align-self: center;
+    flex-grow: 2;
+}
