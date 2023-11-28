@@ -5,7 +5,8 @@
 
 .header {
   background-color: lightblue;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100vw;
 }
 
@@ -34,11 +35,12 @@
   align-items: center;
   background-color: lightcoral;
   padding: 20px 5px;
-  height: 50vh;
+  text-align: center;
 }
 
-.cards img {
-  width: 50%;
+.cards > div > img {
+  width: 45%;
+  margin: 10px auto;
 }
 
 .card-1,
@@ -63,7 +65,6 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 999;
 }
 
 .sticky-icon {

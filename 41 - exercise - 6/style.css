@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon img{
+    width: 50px;
+}
+
+.nav-list ul{
+    display: flex;
+}
+
+.nav-list ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.dropdown{
+    cursor: pointer;
+}
+
+.list-item>.drop-list{
+    display: none;
+    position: absolute;
+    padding: 20px;
+}
+
+.dropdown:hover .drop-list{
+    display: block;
+}
+
+.drop-list-item:hover{
+    background-color: blue;
+    color: white;
+}
