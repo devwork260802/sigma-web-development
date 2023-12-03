@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: red;
+  width: 50vw;
+  height: 40vh;
+}
+
+.box {
+  width: 5vw;
+  height: 4vh;
+  background-color: aqua;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: animate-2 1s ease-in-out 1s infinite forwards;
+  animation-play-state: running;
+}
+
+@keyframes animate-1 {
+  from{
+    background-color: seagreen;
+  }
+  to{
+    background-color: yellow;
+    transform: translateX(500px);
+  }
+}
+
+@keyframes animate-2 {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(100deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
