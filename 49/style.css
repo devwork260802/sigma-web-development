@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: red;
+  width: 500px;
+  height: 400px;
+  background-image: url("https://source.unsplash.com/random/100x100/?$nature");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+img{
+  width: 500px;
+  height: 400px;
+  /* object-fit: scale-down; */
+  /* object-fit: fill; */
+  object-fit: contain;
+  /* object-position: bottom right; */
+  object-position: 10px 20px;
+  /* object-fit: cover; */
+}
