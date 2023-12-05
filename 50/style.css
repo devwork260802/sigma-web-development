@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img-1{
+  filter: brightness(90%) contrast(250%);
+}
+
+.img-2{
+  /* filter: grayscale(100%); */
+  filter: sepia(100%);
+}
+
+.img-3{
+  filter: invert(1);
+}
