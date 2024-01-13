@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container > div {
+  background-color: pink;
+  display: flex;
+  position: relative;
+}
+
+.thumbnail img {
+  margin: 10px;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+
+.heading-title {
+  margin: 10px;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.other-desc {
+  margin: 10px;
+}
+
+.edit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  padding: 3px;
+}
+
+.edit button{
+  background-image: url('./pencil-outline.svg');
+  width: 25px;
+  height: 25px;
+}
+
+@media screen and (orientation: portrait) {
+  .container > div {
+    flex-direction: column;
+  }
+  .thumbnail img {
+    width: -webkit-fill-available;
+    margin: 10px;
+  }
+}
